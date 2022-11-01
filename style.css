@@ -1,7 +1,7 @@
 
-        :root {
-            --chess-bg-color: #000;
-            --chessman-color: #e34234;
+:root {
+        --chess-bg-color: #00A300;
+        --chessman-color: #e34234;
         }
 
         body {
@@ -10,6 +10,7 @@
         }
 
         .grid {
+            background-color: #fffff0;
             display: grid;
             grid-gap: 0;
             grid-template-columns: repeat(8, [col] 10vw);
